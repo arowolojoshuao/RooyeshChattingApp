@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.setayeshco.rooyesh.activities.profile.RegisterStudent">
+    <com.setayeshco.rooyesh.element.textviewbold
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:text="ثبت نام"
+        android:gravity="center"
+        />
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/splash_textlogo"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center|bottom"
+        android:gravity="center"
+        android:paddingLeft="25dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/textlogo"
+        />
+    <com.setayeshco.rooyesh.element.textviewbold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:id="@+id/txtv_title"
+        android:text=" برای ورود اطلاعات زیر را وارد کنید"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/splash_textlogo"
+        android:layout_marginTop="20dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/txtv_title"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+    <TableLayout
+        android:layout_width="match_parent"
+
+        android:layout_marginTop="40dp"
+        android:padding="20dp"
+        android:id="@+id/tbl"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layoutDirection="ltr"
+            android:gravity="center_vertical"
+            >
+
+            <com.setayeshco.rooyesh.element.myedittext
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:inputType="number"
+                android:id="@+id/edt_numberStudent"
+                android:gravity="center_vertical"
+                />
+
+            <com.setayeshco.rooyesh.element.textviewlight
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="شماره دانشجویی"
+                android:gravity="center"
+               android:layout_marginTop="15dp"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layoutDirection="ltr"
+            android:gravity="center_vertical"
+            >
+
+            <com.setayeshco.rooyesh.element.myedittext
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:inputType="number"
+                android:id="@+id/edt_numbercode"
+                android:gravity="center_vertical"
+                />
+
+            <com.setayeshco.rooyesh.element.textviewlight
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="شماره ملی"
+                android:gravity="center"
+
+                android:layout_marginTop="15dp"
+                />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <com.setayeshco.rooyesh.element.mybutton
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_button"
+        android:text="ورود"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/btn_loginstudent"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/tbl"
+        android:layout_centerHorizontal="true"
+        />
+    </RelativeLayout>
+
+</RelativeLayout>

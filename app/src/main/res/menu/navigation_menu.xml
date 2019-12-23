@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu1">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="حساب کاربری" />
+     <!--   <item
+            android:id="@+id/nav_new_group"
+            android:icon="@drawable/ic_new_group"
+            android:title="گروه جدید" />-->
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu2">
+        <item
+            android:id="@+id/nav_students"
+            android:icon="@drawable/ic_students"
+            android:title="دانشجو ها" />
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu3">
+        <item
+            android:id="@+id/nav_make_group"
+            android:icon="@drawable/ic_new_groups"
+            android:title="ایجاد گروه" />
+       <!-- <item
+            android:id="@+id/nav_refresh_contacts"
+            android:icon="@drawable/ic_refresh"
+            android:title="رفرش" />-->
+       <!-- <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_action_send_now"
+            android:title="Tools" />-->
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu4">
+            <item
+                android:id="@+id/nav_make_smart"
+                android:icon="@drawable/ic_make_smart"
+                android:title="کنترل اشیا" />
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu5">
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_setting"
+                android:title="تنظیمات" />
+
+    </group>
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/menu8">
+        <item android:id="@+id/nav_alaki1"
+            android:icon="@drawable/ic_state"
+            android:title="اطلاعات"></item>
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/menu9">
+        <item android:id="@+id/nav_exit"
+            android:icon="@drawable/signout"
+            android:title="خروج"></item>
+    </group>
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/menu">
+    </group>
+</menu>

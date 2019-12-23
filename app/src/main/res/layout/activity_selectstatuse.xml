@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+   
+   
+    android:layout_height="match_parent"
+    tools:context="com.setayeshco.rooyesh.activities.profile.Selectstatuse">
+
+    <com.setayeshco.rooyesh.element.textviewbold
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/join_title"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/splash_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:src="@mipmap/logomalayer" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/splash_logo"
+        >
+    <com.setayeshco.rooyesh.element.mybutton
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_button"
+        android:text="مدیر آموزشی"
+        android:textColor="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_modir"
+        android:layout_marginTop="40dp"
+        />
+
+    <com.setayeshco.rooyesh.element.mybutton
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_button"
+        android:text="استاد"
+        android:textColor="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_teacher"
+        android:layout_below="@+id/btn_modir"
+        android:layout_marginTop="4dp"
+        />
+
+    <com.setayeshco.rooyesh.element.mybutton
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_button"
+        android:text="دانشجو"
+        android:textColor="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_student"
+        android:layout_below="@+id/btn_teacher"
+        android:layout_marginTop="4dp"
+        />
+        <com.setayeshco.rooyesh.element.textviewbold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="برای ثبت نام گزینه مربوط به خود را وارد کنید"
+            android:layout_below="@+id/btn_student"
+            android:gravity="center"
+            android:textColor="#05cebd"
+            android:layout_marginTop="40dp"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@color/colorWhite">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/splash_logo"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitXY"
+
+
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            app:srcCompat="@drawable/ic_logo_rooyesh3" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/splash_app_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+            android:layout_gravity="center|bottom"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"
+            android:text="رویش"
+            android:visibility="gone"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/splash_textlogo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/splash_logo"
+            android:layout_gravity="center|bottom"
+            android:gravity="center"
+            android:scaleType="fitXY"
+           android:layout_marginTop="18dp"
+            android:layout_marginRight="70dp"
+            android:padding="20dp"
+            android:layout_marginLeft="70dp"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/ic_textlogo"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/colorPrimary"
+        >
+        <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/splash_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="104dp"
+        android:gravity="center"
+        android:singleLine="false"
+        android:text="@string/splash_message"
+        android:textColor="@color/colorWhite"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+<!--<LinearLayout android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical"-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android" >-->
+
+
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="3"-->
+        <!--&gt;-->
+        <!--<android.support.v7.widget.AppCompatImageView-->
+            <!--android:id="@+id/splash_logo"-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="150dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginBottom="16dp"-->
+            <!--android:src="@drawable/logo_splash" />-->
+
+        <!--<android.support.v7.widget.AppCompatTextView-->
+            <!--android:id="@+id/splash_app_name"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/app_name"-->
+            <!--android:textColor="@color/colorWhite"-->
+            <!--android:textSize="30sp"-->
+            <!--android:textStyle="bold" />-->
+
+
+    <!--</FrameLayout>-->
+<!--<FrameLayout -->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="2"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:background="@color/colorPrimary"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="vertical">-->
+
+    <!---->
+
+    <!--<android.support.v7.widget.AppCompatImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@drawable/bg_image"-->
+        <!--android:scaleType="centerCrop" />-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="vertical">-->
+
+
+
+
+       <!---->
+
+
+        <!--<android.support.v7.widget.AppCompatTextView-->
+            <!--android:id="@+id/splash_message"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_marginRight="16dp"-->
+            <!--android:layout_marginTop="24dp"-->
+            <!--android:gravity="center"-->
+            <!--android:singleLine="false"-->
+            <!--android:text="@string/splash_message"-->
+            <!--android:textColor="@color/colorWhite"-->
+            <!--android:textSize="16sp"-->
+            <!--android:textStyle="bold" />-->
+
+    <!--</LinearLayout>-->
+<!--</FrameLayout>-->
+<!--</LinearLayout>-->
+

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+   android:gravity="center_horizontal"
+    tools:context="com.setayeshco.rooyesh.activities.profile.RegisterTeacher">
+
+    <com.setayeshco.rooyesh.element.textviewbold
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:text="ثبت نام"
+        android:gravity="center"
+        />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/splash_textlogo"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="130dp"
+        android:layout_gravity="center|bottom"
+        android:gravity="center"
+        android:paddingLeft="25dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/textlogo"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/splash_textlogo"
+        android:layout_marginTop="80dp"
+        >
+
+
+    <com.setayeshco.rooyesh.element.textviewbold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="نام کاربری و کلمه عبور خود را وارد کنید"
+        android:id="@+id/txtv_title"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorAccent"
+        />
+   <com.setayeshco.rooyesh.element.textviewbold
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text=""
+       android:visibility="gone"
+       android:layout_below="@+id/txtv_title"
+       android:layout_marginTop="10dp"
+       android:id="@+id/txtv_beforcode"
+       />
+    <com.setayeshco.rooyesh.element.myedittext
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/numberPhone"
+        android:layout_below="@+id/txtv_title"
+       android:hint="نام کاربری"
+        android:gravity="center"
+       android:layout_centerHorizontal="true"
+
+        />
+
+        <com.setayeshco.rooyesh.element.myedittext
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edt_pass"
+            android:layout_below="@+id/numberPhone"
+            android:hint="کلمه عبور"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:inputType="textPassword"
+
+            />
+
+        <com.setayeshco.rooyesh.element.mybutton
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_button"
+            android:text="ورود"
+            android:textColor="@color/colorAccent"
+           android:layout_marginTop="40dp"
+            android:id="@+id/btn_request_sms"
+            android:layout_below="@+id/edt_pass"
+            android:layout_centerHorizontal="true"
+
+
+            />
+    </RelativeLayout>
+</RelativeLayout>

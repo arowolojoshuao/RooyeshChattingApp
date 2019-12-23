@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_item_rect_ripple"
+    android:id="@+id/mBackground"
+    android:clickable="true"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="6dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="16dp"
+        android:paddingTop="6dp"
+        android:layoutDirection="ltr">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="16dp">
+
+            <TextView
+                android:id="@+id/admin"
+                android:layout_width="70dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_buttons_admin"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="مدیر گروه"
+                android:textColor="@drawable/bg_buttons_text_color_admin"
+                android:textSize="10sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/member"
+                android:layout_width="70dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_buttons_member"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="عضو"
+                android:textColor="@drawable/bg_buttons_text_color_member"
+                android:textSize="10sp"
+                android:visibility="gone" />
+
+
+
+
+
+        </FrameLayout>
+
+
+        <ToggleButton
+            android:id="@+id/toggle_presenet"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:width="33dp"
+            android:height="33dp"
+            android:gravity="center"
+            android:background="@drawable/group_members_round_toggle"
+            android:textOn="@string/present"
+            android:textOff="@string/absent"
+            android:textSize="10dp"
+            android:checked="true"
+            android:padding="2dp"
+
+            />
+
+
+        <LinearLayout
+            android:id="@+id/layoutShowPA"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <hani.momanii.supernova_emoji_library.Helper.EmojiconTextView
+                android:id="@+id/status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="right"
+                android:text="@string/app_name"
+                android:textColor="@color/colorGray2"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/app_name"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/name_member_size"
+                android:textStyle="bold" />
+
+
+            android:layout_height="" />
+
+
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/user_image"
+            android:layout_width="@dimen/image_member_width"
+            android:layout_height="@dimen/image_member_height"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/image_profile_margin"
+            android:src="@drawable/image_holder_ur_circle" />
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/view_margin_left"
+        android:layout_marginRight="@dimen/view_margin_right"
+        android:background="@color/colorGray" />
+</LinearLayout>

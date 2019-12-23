@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" >Rooyesh</string>
+    <!-- Date format -->
+    <string name="date_format_today">HH:mm</string>
+    <string name="date_format_current_month">dd/MM/yyyy HH:mm</string>
+    <string name="date_format_yesterday">Dün</string>
+    <string name="date_format">dd/MM/yy</string>
+
+    <string name="action_settings">Ayarlar</string>
+    <string name="title_home">Home</string>
+    <string name="title_Friends">Arkadaş</string>
+    <string name="title_conversations">Sohbetler</string>
+    <string name="title_settings">Ayarlar</string>
+    <string name="title_feed_back"><![CDATA[Hakkında ve yardım]]></string>
+    <string name="more">Daha fazla bilgi</string>
+    <string name="title_sign_out">Çıkış</string>
+    <string name="selected_count">%1$s Seçildi</string>
+    <string name="number">telefon numarası</string>
+    <string name="NoMessages">Şimdi bir tane başlayabilir, henüz konuşmaları var</string>
+    <string name="NoCalls">Arama yok</string>
+    <string name="error_response">Güncellenemedi.</string>
+    <string name="NoContacts">Hiçbir kişi daha sonra tekrar deneyin ya da yenilerini eklemek zarar bulursanız yoktur</string>
+    <string name="type_msg">Bir mesaj yaz</string>
+    <string name="NoResult">hiçbir şey</string>
+    <string name="error_response_contacts">Kişilerinizi güncellenemedi.</string>
+    <string name="error_response_conversations">Konuşmaları güncellenemedi.</string>
+    <string name="error_response_groups">Grupları güncellenemedi.</string>
+    <string name="error_response_messages">Mesajları güncellenemedi.</string>
+    <string name="name_is_too_short">adı çok kısa</string>
+    <string name="select_picture">bir resim seçin</string>
+    <string name="new_group">Yeni grup</string>
+    <string name="starred_messages">Yıldızlı ileti</string>
+    <string name="status">Şimdiki durumunuz</string>
+    <string name="settings">Ayarlar</string>
+    <string name="refresh_contacts">Yenile</string>
+    <string name="search">Bul</string>
+    <string name="add_contact">Kişi ekle</string>
+    <string name="new_message">Yeni Mesaj</string>
+    <string name="use_whats_clone">hey ben kullanıyorum …</string>
+    <string name="title_activity_add_members_to_group">Yeni grup</string>
+    <string name="title_activity_settings">Ayarlar</string>
+    <string name="title_activity_edit_profile">Profil</string>
+    <string name="share">Paylaş</string>
+    <string name="edit">düzenle</string>
+    <string name="view_in_ad_book">Kişilerde görüntüle</string>
+    <string name="hello_welcome_to_whats_clone">Karşılama</string>
+    <string name="next">İleri</string>
+    <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification">Eğer doğrulama sms alacaksınız geri getirin ve sakin tutmak</string>
+    <string name="resend">Herhangi kod almadım? yeniden</string>
+    <string name="enter_the_code_below_to_verify">Doğrulamak için aşağıdaki kodu girin</string>
+    <string name="enter_your_code">-- -- -- -- -- --</string>
+    <string name="ok">OK</string>
+    <string name="please_enter_your_ver_code">Şifrenizi onaylayın:</string>
+    <string name="enter_a_val_number">Lütfen telefon numaranızı girin.</string>
+    <string name="change_number">Değişim numarası</string>
+    <string name="invite">Davet Et</string>
+    <string name="your_current_status">Durumum</string>
+    <string name="select_your_new_status">Yeni durum güncellemesi</string>
+    <string name="title_activity_status">Durum</string>
+    <string name="Make_sure_delete_status">Bütün durumlarınızı silmek istediğinizden emin misiniz?</string>
+    <string name="Yes">Evet</string>
+    <string name="No">Hayır</string>
+    <string name="delete">Sil</string>
+    <string name="delete_status">Durumu sil</string>
+    <string name="cancel">İptal</string>
+    <string name="Ok">Evet</string>
+    <string name="write_something">Bir mesaj yaz</string>
+    <string name="error_response_status">Unable to get status</string>
+    <string name="title_activity_edit_status">düzenle Durum</string>
+    <string name="deleteALL">Hepsini sil</string>
+    <string name="oops_something">Oops bir şeyler ters gitti </string>
+    <string name="oops_something_crashed">Oops !! bir şeyler ters gitti. Geliştiriciye rapor gönderin</string>
+    <string name="no_status">***durum yok***</string>
+    <string name="no_username"> hiçbir kullanıcı adı </string>
+    <string name="edit_status_activity_title">Yeni durum ekle</string>
+    <string name="title_activity_edit_name">Adınızı girin</string>
+    <string name="title_select_contacts">Kişilerim</string>
+    <string name="success_response_contacts">Kişiler güncellenmiştir.</string>
+
+    <string name="edit_group_name">Yeni konu girin</string>
+    <string name="exit">Çık</string>
+    <string name="shareContact">Hisse temas</string>
+
+    <!--socket io -->
+    <string name="isTyping">yazıyor...</string>
+    <string name="isOffline">Offline</string>
+    <string name="isOnline">çevrimiçi</string>
+    <string name="lastSeen">son görülme</string>
+
+
+    <!--end date format-->
+    <string name="call">Ara</string>
+    <string name="attach">Ekle</string>
+    <string name="search_">Bul …</string>
+    <string name="add_new_member">Ekle</string>
+    <string name="type_group_subject_here">Yeni konu girin</string>
+    <string name="provide_group_subject_and_optional_group_icon">Grup konusu ve isteğe bağlı grup simgesi belirleyin</string>
+    <string name="title_activity_edit_group_name">Yeni konu girin</string>
+    <string name="attach_contact">Kişi</string>
+    <string name="attach_video">Video</string>
+    <string name="attach_video_record">Record video</string>
+    <string name="attach_location">Konum</string>
+    <string name="attach_audio">Ses</string>
+    <string name="attach_camera">Kamera</string>
+    <string name="attach_gallery">Galeri</string>
+    <string name="attach_document">Belge</string>
+    <string name="media">Media</string>
+    <string name="clear_chat">Sohbeti temizle</string>
+    <string name="view_contact">Görünüm İletişim</string>
+    <string name="group_info">Grup bilgisi</string>
+    <string name="search_hint">Bul …</string>
+    <string name="alert_message_delete_conversation">Bu sohbetteki mesajları silmek istediğinize emin misiniz?</string>
+    <string name="join_title">Tekrar kaydol</string>
+    <string name="hold_to_record">Sesli mesaj kaydet</string>
+
+    <!-- Permissions strings start -->
+    <string name="camera_permission">Kamera İzni</string>
+    <string name="audio_permission">Ses İzin</string>
+    <string name="storage_permission">Depolama İzni</string>
+    <string name="contacts_permission">İletişim İzni</string>
+    <string name="vibrate_permission">Titreşim İzin</string>
+    <string name="receive_sms_permission">Sms İzni Alma</string>
+    <string name="read_sms_permission">Sms İzni Oku</string>
+    <string name="call_phone_permission">Çağrı Telefon İzni</string>
+    <string name="get_accounts_permission">Hesapları İzin alın</string>
+    <string name="write_sync_settings_permission">Hesapları İzin alın</string>
+    <string name="read_sync_settings_permission">Hesapları İzin alın</string>
+    <string name="camera_permission_message">Görüntülü arama yapmak ve almak için HELLO ın kameranıza erişimi gerekmekte.</string>
+    <string name="record_audio_permission_message">Ses kaydı izni, ses kaydetmenizi sağlar. Ek işlevler için Uygulama Ayarları\'na izin verin.</string>
+    <string name="settings_audio_permission_message">Görüntülü arama yapmak ve almak için HELLO ın mikrofonunuza ve kameranıza erişimi gerekmekte.</string>
+    <string name="write_storage_permission_message">Yaz harici izin bize medyanıza erişmenizi sağlar. Ek işlevler için Uygulama Ayarları\'na izin verin.</string>
+    <string name="read_storage_permission_message">Oku Harici izni medyasını okumamızı sağlar. Ek işlevler için Uygulama Ayarları\'na izin verin.</string>
+    <string name="read_contacts_permission_message">Kişileri oku izniyle kişileri okumamıza izin veriyoruz. Ek işlevler için Uygulama Ayarları\'na izin verin.</string>
+    <string name="write_contacts_permission_message">Kişileri yaz izni, kişilerinize erişmenizi sağlar. Ek işlevler için Uygulama Ayarları\'na izin verin.</string>
+    <string name="vibrate_permission_message">Titreşim izni. Ek işlevler için Uygulama Ayarları\'na izin verin.</string>
+    <string name="receive_sms_permission_message">SMS alabilme izni, SMS mesajları almanızı sağlar. Ek işlevler için Uygulama Ayarları\'na izin verin.</string>
+    <string name="read_sms_permission_message">Oku sms izni, SMS mesajlarınıza erişmemizi sağlar. Ek işlevler için Uygulama Ayarları\'na izin verin.</string>
+    <string name="call_phone_permission_message">Telefon görüşmesi yapma izni vermenizi sağlar. Ek işlevler için Uygulama Ayarları\'na izin verin.</string>
+    <string name="get_accounts_permission_message">Hesap edinme izni. Ek işlevler için Uygulama Ayarları\'na izin verin.</string>
+    <string name="write_sync_settings_permission_message">Senkronizasyon ayarları izinini yazın. Ek işlevler için Uygulama Ayarları\'na izin verin.</string>
+    <string name="read_sync_settings_permission_message">Senkronizasyon ayarları iznini okuyun. Ek işlevler için Uygulama Ayarları\'na izin verin.</string>
+    <string name="no_thanks">hayır, teşekkürler</string>
+    <string name="yes">Evet</string>
+
+    <!--Permissions strings end -->
+
+    <string name="deleting_chat">"Sohbeti sil … "</string>
+    <string name="copy_message">Kopyala</string>
+    <string name="transfer_message">Yönlendir</string>
+    <string name="message_delete">Mesajı sil?</string>
+    <string name="message_copy">Text message</string>
+
+    <!--settings strings-->
+    <string name="about_and_help">Hakkında ve yardım</string>
+    <string name="contacts">Kişiler</string>
+    <string name="notifications">Mesaj bildirimleri</string>
+    <string name="chats">Sohbetler</string>
+    <string name="account">Hesap</string>
+    <string name="delete_my_account">Hesabımı sil</string>
+    <string name="chat_settings">Sohbet ayarları</string>
+    <string name="enter_key_off">Enter tuşu yeni bir satır ekleyecektir</string>
+    <string name="enter_key_on">Enter tuşu mesajınızı gönderecektir</string>
+    <string name="enter_key">Enter tuşu gönderir</string>
+    <string name="message_font_size">Yazı tipi boyutu</string>
+    <string name="message_font_size_summary">Sohbet ekranı yazı tipi boyutu</string>
+    <string name="wallpaper">Duvar kağıdı</string>
+    <string name="conversation_tones_off">Gelen ve giden mesajlarda ses çalar</string>
+    <string name="message_notifications_settings">Message bildirimleri</string>
+    <string name="notifications_settings_tone">Bildirim tonu</string>
+    <string name="default_settings">Varsayılan</string>
+    <string name="message_notifications_settings_vibrate">Titreşim</string>
+    <string name="message_notifications_settings_light">Işık</string>
+    <string name="call_notifications_settings_vibrate">Titreşim</string>
+    <string name="call_notifications_settings_light">Işık</string>
+    <string name="conversation_tones">Bildirim tonu</string>
+    <string name="message_group_notifications_settings">Grup bildirimleri</string>
+    <string name="title_activity_delete_account">Hesabı sil</string>
+    <string name="title_activity_change_number">Numarayı değiştir</string>
+    <string name="title_activity_account_settings">Hesap</string>
+    <string name="call_notifications_settings">Arama bildirimleri</string>
+    <string name="call_ringtone">Zil sesi</string>
+    <string name="message_notifications_settings_tone_silent">Sessiz</string>
+    <string name="call_notifications_settings_tone_silent">Sessiz</string>
+    <string name="connection_is_available">Connected</string>
+    <string name="connection_is_not_available">Üzgünüz, HELLO başlatmayı tamamlayamadı. Lütfen Internet\'e bağlı olduğunuzdan emin olun ve tekrar deneyin</string>
+    <string name="select_one_at_least">"At least you must select one "</string>
+    <string name="participants">Katılımcılar:</string>
+    <string name="group_created_successfully">Grup oluşturuluyor...</string>
+    <string name="create_group_failed">Oluşturulamadı. Tekrar denemek için dokunun.</string>
+    <string name="please_choose_an_avatar">“için grup simgesi olarak ayarla?</string>
+    <string name="slide_to_cancel_audio">redettmek için kaydır</string>
+    <string name="message_is_copied">Mesaj kopyalandı</string>
+    <string name="of">" of "</string>
+    <string name="failed_upload_image">"Bu fotoğraf yüklenemedi. Lütfen tekrar deneyin."</string>
+
+    <!--group adapters start -->
+    <string name="exit_group">Çık \"</string>
+    <string name="group_ex">\" grup?</string>
+    <string name="exiting_group_dialog">" Gruptan çık … "</string>
+    <string name="deleting_group_dialog">"Siliniyor..."</string>
+    <string name="created_by_you_at">grubunu oluşturdunuz</string>
+    <string name="created_by">"Oluşturan "</string>
+    <string name="group_at">at</string>
+    <string name="failed_to_delete_this_group_check_connection">Bu grup kapatılamadı. Lütfen tekrar deneyin.</string>
+    <string name="failed_to_exit_this_group_check_connection">Gruptan ayrılamadınız. Lütfen tekrar deneyin.</string>
+    <string name="adding_new_status">Yeni durum güncellemesi…</string>
+    <string name="add_to_group">"Ekle "</string>
+    <string name="member_to_group">" member to group"</string>
+    <string name="adding_member">" Adding member … "</string>
+    <string name="failed_to_add_member_to_group">Katılımcı eklenemedi. Lütfen tekrar deneyin.</string>
+    <string name="you">Siz</string>
+    <!--group member options start -->
+    <string name="message_group_option">"Mesaj "</string>
+    <string name="view_group_option">"Görüntüle "</string>
+    <string name="make_admin_group_option"> an admin</string>
+    <string name="make_member_group_option"> member</string>
+    <string name="make_group_option"> Make </string>
+    <string name="remove_group_option">"Kaldır "</string>
+    <!--group member options end -->
+    <string name="remove_from_group">"Kaldır "</string>
+    <string name="from_group">" from group"</string>
+    <string name="deleting_group">" Çıkarıldınız … "</string>
+    <string name="failed_to_make_member_as_admin">Yöneticileri değiştiremezsiniz çünkü yönetici değilsiniz.</string>
+    <string name="failed_to_remove_member">Katılımcı çıkartılamadı. Lütfen tekrar deneyin.</string>
+    <!--group adapters end -->
+    <!--conversations and messages  adapters start-->
+    <string name="tap_to_create_group">Bu grup oluşturmak için dokunun</string>
+    <string name="you_created_this_group">Bu grubu oluşturdu</string>
+    <string name="he_created_this_group">"Bu grubu oluşturdu"</string>
+    <string name="you_left">You left</string>
+    <string name="he_left">" left"</string>
+    <string name="document">Doküman</string>
+    <string name="no_application_to_show_image">"ShowImage Uygun Hayır Uygulama "</string>
+    <string name="no_application_to_view_pdf">PDF gosteriyor.Gosterdigi yok Uygulaması</string>
+    <string name="no_application_to_send_sms">SMS gönder Uygun Hayır Uygulama</string>
+    <!--conversations and messages adapters start-->
+    <string name="transfer_message_to">"İleti aktarın veya içeriği paylaşın "</string>
+    <string name="no_app_to_play_video">"Video oynatılabilen bir uygulama yok "</string>
+    <string name="no_app_to_play_audio">"Ses çalmak için kullanılabilir bir uygulama yok "</string>
+    <string name="delete_all_status_dialog">Tüm sohbetleri sil…</string>
+    <string name="deleting">Durumu…</string>
+    <string name="updating_status">Durum güncellemesi paylaşılıyor...</string>
+    <string name="your_status_updated_successfully">Durum güncellemesi silindi</string>
+
+
+    <string name="reply_message">Cevapla</string>
+
+
+    <string name="message_notifications_settings_vibrate_off">Titreşim Off</string>
+    <string name="message_notifications_settings_vibrate_on">Titreşim On</string>
+    <string name="call_notifications_settings_vibrate_off">Titreşim Off</string>
+    <string name="call_notifications_settings_vibrate_on">Titreşim On</string>
+    <string name="enjoy_it">HELLO\'a Hoşgeldiniz</string>
+    <string name="app_version">"Version "</string>
+    <string name="to_delete_your_account_from_confirm_your_phone_number">Hesabınızı silmek için, ülke kodunuzu onaylayın ve telefon numaranızı girin.</string>
+    <string name="delete_user_account">Hesabımı sil</string>
+    <string name="delete_you_from_groups"><![CDATA[> Sizi tüm Hello gruplarınızdan siler]]></string>
+    <string name="delete_all_your_messages"><![CDATA[> Tüm sohbetleri sil]]></string>
+    <string name="delete_your_account"><![CDATA[> حساب خود را غیرفعال کنید]]></string>
+    <string name="deleting_your_account_will">HELLO hesabınız silindi.:</string>
+    <string name="alert_message_delete_account">Hesap silinmesine devam edilsin mi? Bu işlemin geri dönüşü yoktur. Gelecekte HELLO hesabınızı aktifleştirseniz bile, verileriniz kurtarılamaz.</string>
+    <string name="delete_account_failed_please_try_later">Hesabınız silinemedi. Lütfen daha sonra tekrar deneyin.</string>
+    <string name="unexpected_reponse_from_server">Unexpected response from the server</string>
+    <string name="you_send_messages"> Artık bu grubun katılımcısı değilsiniz.</string>
+    <string name="file">File</string>
+    <string name="waiting_for_network">Şebeke kullanılamıyor. Lütfen daha sonra tekrar deneyin.</string>
+    <string name="failed_exit_group">Çıkış yapılamadı. Tekrar denemek için dokunun.</string>
+    <string name="this_video_is_not_exist">Bu video kullanılamıyor çünkü video dosyasıyla ilgili bir sorun var.</string>
+    <string name="this_image_is_not_exist">Bu fotoğraf yüklenemedi. Lütfen tekrar deneyin.</string>
+    <string name="this_audio_is_not_exist">Bu ses kullanılamıyor çünkü ses dosyasıyla ilgili bir sorun var.</string>
+    <string name="this_document_is_not_exist">Belgeler bulunamadı</string>
+    <string name="account_added_already">" Hello hesabı zaten eklenmiş "</string>
+    <string name="you_cannot_delete_your_account_please_contac">Hesabınız silinemedi. Lütfen daha sonra tekrar deneyin.</string>
+
+    <!--Directories strings-->
+
+    <string name="profile_photos">Kişi Profil Fotoğrafı</string>
+    <string name="images_directory">Fotoğraflar</string>
+    <string name="data_cache_directory">Yedekler aranıyor</string>
+    <string name="videos_directory">Videolar</string>
+    <string name="audios_directory">Ses</string>
+    <string name="documents_directory">Belge</string>
+    <string name="images_other_directory"> Medya ekle</string>
+    <string name="directory_wallpaper">Duvar kağıdı</string>
+    <string name="directory_sent">İletildi</string>
+       <string name="video_thumbnail">Thumbnail</string>
+       <string name="image_saved">Image Saved</string>
+       <string name="save_to_gallery">Galeriye kaydedildi</string>
+       <string name="share_or_save">Share Or Save</string>
+       <string name="shareItem">Paylaş</string>
+       <string name="this_message_empty">This message is empty</string>
+       <string name="share_message">Paylaş</string>
+       <string name="you_can_share_more_then_one">Birden fazla öğe paylaşamazsınız</string>
+       <!--others -->
+    <string name="add_to_you_contact">BU KİŞİ BAŞVURULARINIZA EKLEYİN </string>
+    <string name="status_and_phone">Durum ve telefon</string>
+    <string name="failed_to_the_current_status">Mevcut durum elde edilemedi</string>
+    <string name="please_enter_your_mobile_number">Lütfen eski telefon numaranızı girin:</string>
+    <string name="verify_mobile">Doğrula</string>
+    <string name="firstly_select_your_country_here">Bir Ülke Seçin</string>
+    <string name="activity_backup_drive_success">Yedekleme bitti</string>
+    <string name="activity_backup_drive_failed">Yedekleme tamamlanamadı</string>
+    <string name="activity_backup_drive_message_restart">Restarting backup</string>
+    <string name="restore_data">Geri Yükle</string>
+    <string name="please_click_on_restore_button_to_restore_your_messages">Mesajlarınızı geri yüklemek için lütfen başlat düğmesine tıklayın.</string>
+    <string name="backup">Yedekle</string>
+    <string name="chat_backup">Chat Yedekle</string>
+    <string name="back_up_your_messages_you_can_restore_them_when_you_reinstall_the_application">İletilerinizi yedekleyin. Uygulamayı yeniden yüklediğinizde geri yükleyebilirsiniz.</string>
+    <string name="back_up">Yedekle</string>
+    <string name="start_backing_up">Start backing up</string>
+    <string name="start_restore">Start restore Or skip</string>
+    <string name="start">Başlama</string>
+    <string name="skip">Atlamak</string>
+    <string name="finish">Bitiş</string>
+
+    <!-- Rate Strings -->
+    <string name="rate_title">Rate %s</string>
+    <string name="rate_message">Kullanmayı seviyorsanız %s, Oy vermek için biraz zaman ayırırmısın? Desteğin için teşekkürler!</string>
+    <string name="rate">Evet, oran %s</string>
+    <string name="rate_later">Bana daha sonra hatırlat</string>
+    <string name="rate_cancel">Hayır teşekkürler</string>
+    <string name="rate_helper_google_play_url">https://play.google.com/store/apps/details?id=%s</string>
+    <string name="update">Evet, Güncelle %s</string>
+    <string name="update_title">Güncelle %s</string>
+    <string name="update_app">Güncelle?</string>
+    <string name="update_app_message">HELLO\'ın yeni bir sürümü var. Şimdi yüklemek ister misiniz? </string>
+    <string name="update_message_complete">"HELLO\'ın bu sürümü çok eski ve artık çalışmıyor. Lütfen Google Play Store'dan en son sürümü indirin."</string>
+    <string name="please_select_y_country">Bir ülke seç</string>
+    <string name="permission_alert">Kişi bilgisi göndermek için, HELLO\'ın kişilerinize erişimine izin verin.</string>
+    <string name="permission_alert_msg">Kişi bilgisi göndermek için, HELLO\'ın kişilerinize erişimine izin verin. Ayarlar > İzinler\'e dokunun ve Kişiler\'i açık konuma getirin.</string>
+    <!--calls strings-->
+    <string name="incoming_call">Gelen sesli arama</string>
+    <string name="incoming_call_from">Sesli Arama</string>
+    <string name="call_ended">Sesli Aramayı Bitir</string>
+    <string name="calling">ARANIYOR</string>
+    <string name="clear_log_call">Arama kayıtlarını sil</string>
+    <string name="new_call">Yeni arama</string>
+    <string name="you_couldnt_call_this_user">Arama yapılamadı. Telefonunuzun İnternete bağlı olduğundan emin olup tekrar deneyin.</string>
+    <string name="fake_name">- - -</string>
+    <string name="mobile">"Mobile: "</string>
+    <string name="click_to_make_an_action">cevaplamak için kaydır</string>
+    <string name="voice_call">Sesli Arama</string>
+    <string name="video_call">Görüntülü arama</string>
+    <string name="call_history">Geçmişi</string>
+    <string name="title_calls">Arama bilgisi</string>
+    <string name="remove_from_log">Arama listesinden sil</string>
+    <string name="block_user">Engelle</string>
+    <string name="delete_call_dialog">Sil …</string>
+    <string name="call_select_voice">Sesli Arama    </string>
+    <string name="call_select_video">Görüntülü arama   </string>
+    <string name="you_couldnt_call_this_user_network">Telefonunuzun İnternet bağlantısını kontrol edin ve tekrar deneyin.</string>
+    <string name="you_couldnt_call">Aranamıyor</string>
+    <string name="duration">Duration</string>
+    <string name="close">Kapat</string>
+    <string name="open">Aç</string>
+    <string name="about_title">Hakkında</string>
+    <string name="page_not_found">Page Not Found</string>
+    <string name="default_wallpaper">Varsayılan</string>
+    <string name="wallpaper_gallery">Galeri</string>
+    <string name="wallpaper_is_set">Duvar kağıdı ayarlandı</string>
+    <string name="you_can_copy_more_then_one">Birden fazla öğeyi kopyalayamaz</string>
+    <string name="documents">Belgeler</string>
+    <string name="links">Bağlantılar</string>
+    <string name="this_a_pdf_file_document">PDF Belge</string>
+    <string name="fetching_urls_preview">Fetching …</string>
+    <string name="splash_message"> Bu \"gerçek zamanlı\" uygulamasını sohbet kullanırken vakit geçirin.</string>
+    <string name="title_activity_privacy"><![CDATA[Koşullar ve Gizlilik Politikası]]></string>
+    <string name="terms_and_privacy_policy">Koşullar ve Gizlilik Politikası</string>
+    <string name="english">İngilizce</string>
+    <string name="german">Alman</string>
+    <string name="srbski">Sırp</string>
+    <string name="bosnisch">Boşnakça</string>
+    <string name="romaneste">Romen</string>
+    <string name="french">Fransız</string>
+    <string name="turski">Türkisch</string>
+    <string name="tschechisch">Çek</string>
+    <string name="grichisch">Yunan</string>
+    <string name="spanisch">İspanyolca</string>
+    <string name="kroatisch">Hırvat</string>
+    <string name="indonesisch">Endonezya</string>
+    <string name="mazedonisch">Makedonyalı</string>
+    <string name="rusisch">Rus</string>
+    <string name="slovenisch">Sloven</string>
+    <string name="title_language">Uygulama Dili</string>
+    <!--new strings-->
+
+    <string name="you_need_to_restart_the_application">Uygulamayı yeniden başlatmanız gerekiyor</string>
+    <string name="you_are_using_a_moderate_connection">Ilımlı bir bağlantı kullanıyorsunuz</string>
+    <string name="you_are_using_a_poor_connection">Kötü bağlantı kullanıyorsunuz</string>
+    <string name="you_are_using_a_good_connection">Iyi bir bağlantı kullanıyorsunuz</string>
+    <string name="you_are_using_a_slower_connection">Yavaş bir bağlantı kullanıyorsunuz</string>
+
+    <string name="selected">Seçildi</string>
+    <string name="failed_to_restore_the_backup">Yedekleme haber başarısız</string>
+    <string name="restore_is_done">Mesajlar yedekleniyor:</string>
+    <string name="failed_to_restore_the_backup_try">Mesajlar yedeklenemiyor. Lütfen daha sonra tekrar deneyin.</string>
+    <string name="please_wait_a_moment">Lütfen bir dakika bekleyin…</string>
+    <string name="current_language">current</string>
+
+    <string name="block_user_make_sure">Engellenen kişiler sizi arayamaz veya size mesaj gönderemez.</string>
+    <string name="unblock_user_make_sure">Bu kullanıcıyı engellemek olacaktır, böylelikle senden arayın veya mesajlar emin .are göndermek mümkün olacak?</string>
+    <string name="unblock_user">Engelle</string>
+    <string name="title_blocked_contacts">Engellenmiş kişiler</string>
+    <string name="missed_video_call">Cevapsız görüntülü arama</string>
+    <string name="missed_voice_call">Cevapsız sesli arama</string>
+    <string name="outgoing_video_call">Giden görüntülü arama</string>
+    <string name="outgoing_voice_call">Giden sesli arama</string>
+
+    <string name="invitation_from">dan Davet</string>
+    <string name="your_session_expired">Your Session is Expired</string>
+    <!--new strings-->
+    <string name="click_on">Click on </string>
+    <string name="to_choose_your_country_n_and_enter_your_phone_number"> to choose your country   and enter your phone number</string>
+    <string name="username">Username</string>
+    <string name="complete_registration_optional">This is an optional step you can skip it without edit anything</string>
+    <string name="complete_registration">Complete Registration</string>
+    <string name="dialog_loading">Loading…</string>
+    <string name="last_back_time">You last back up is done at :</string>
+    <string name="you_didnot_make_a_backup">You didn\'t make a backup yet</string>
+    <string name="creating_backup">Creating a local backup (</string>
+    <string name="backup_occur">%). Backups occur</string>
+    <string name="failed_to_backup_your_data">Failed to backup your messages</string>
+    <string name="backup_is_done">Back up is done successfully at :</string>
+    <string name="backup_drive_folder">Backup folder</string>
+    <string name="backup_drive_folder_not_set">N/A</string>
+    <string name="backup_drive_button_open_drive">Open drive</string>
+    <string name="backup_drive_recent">Recent Backups</string>
+    <string name="backup_drive_dialog_restore_title">Revet to previous version</string>
+    <string name="backup_drive_dialog_restore_desc">Restoring this backup will overwrite all existing data with the backup</string>
+    <string name="backup_drive_dialog_restore_details">Backup Details</string>
+    <string name="get_started">Get started</string>
+    <string name="number_not_match">This number not match the first one you insert to verify .please try again</string>
+
+    <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification_kit">Set back and keep calm </string>
+    <string name="you_can_select_your_favorite_language_from_here">You can select your favorite language from here</string>
+    <string name="signup_terms">By Proceeding you also agree to application’s Terms of Service and
+		Privacy Policy.
+	</string>
+    <string name="voice_call_dialog_title">Voice</string>
+    <string name="video_call_dialog_title">Video</string>
+    <string name="new_messages_notify">new messages</string>
+    <string name="messages_from_notify">messages from</string>
+    <string name="chats_notify">chats</string>
+
+    <string name="present">present</string>
+    <string name="absent">absent</string>
+    <string name="open_screen_capture_directory">open_screen_capture_directory</string>
+    <string name="open_screen_capture_directory_title">open_screen_capture_directory_title</string>
+    <string name="student">student</string>
+    <string name="password">password</string>
+    <string name="teacher">teacher</string>
+    <string name="access_denied_create_group">access_denied_create_group</string>
+    <string name="captured_videos_directory">captured_videos_directory</string>
+    <string name="error_capture">error_capture</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

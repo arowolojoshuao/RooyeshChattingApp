@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">rooyesh</string>
+    <string name="scrollingFABBehavior" translatable="false">com.setayeshco.rooyesh.ui.ScrollingFABBehavior</string><!--you have to change package name here-->
+
+    <string name="FACEBOOK_APP_ID" translatable="false">put your facebook app ID</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN" translatable="false">put your fb account kit token</string>
+
+    <string name="splash_message"> نگرشی نوین در ابزارهای آموزشی </string>
+    <!--don't translate those strings -->
+    <string name="key_message_notifications_settings_light" translatable="false">message_notifications_settings_light</string>
+    <string name="key_message_group_notifications_settings_tone" translatable="false">message_group_notifications_settings_tone</string>
+    <string name="key_message_group_notifications_settings_vibrate" translatable="false">message_group_notifications_settings_vibrate</string>
+    <string name="key_message_group_notifications_settings_light" translatable="false">message_group_notifications_settings_light</string>
+    <string name="key_call_notifications_settings_vibrate" translatable="false">call_notifications_settings_vibrate</string>
+    <string name="key_enter_send" translatable="false">enter_send</string>
+    <string name="key_message_font_size" translatable="false">message_font_size</string>
+    <string name="key_wallpaper_message" translatable="false">wallpaper_message</string>
+    <string name="key_conversations_tones" translatable="false">conversation_tones</string>
+    <string name="key_message_notifications_settings_tone" translatable="false">message_notifications_settings_tone</string>
+    <string name="key_call_notifications_settings_tone" translatable="false">call_notifications_settings_tone</string>
+    <string name="key_message_notifications_settings_vibrate" translatable="false">message_notifications_settings_vibrate</string>
+
+
+    <string name="picture_transition" translatable="false">Picture transition</string>
+    <string name="user_image_transition" translatable="false">userImage</string>
+    <string name="user_name_transition" translatable="false">userName</string>
+
+
+    <string name="app_service_name" translatable="false">MessageService</string>
+    <!--key -->
+
+    <!-- icons -->
+    <string name="icon_no_calls" translatable="false">\ue892</string>
+    <string name="icon_crash" translatable="false">\ue7e8</string>
+    <string name="icon_no_contacts" translatable="false">\ue892</string>
+    <string name="icon_no_conversations" translatable="false">\ue892</string>
+
+    <string name="chats_title_tab" translatable="false">\ue7db</string>
+    <string name="contacts_title_tab" translatable="false">\ue722</string>
+    <string name="calls_title_tab" translatable="false">\ue76a</string>
+
+
+    <string name="icon_settings" translatable="false">\ue672</string>
+    <string name="icon_chat" translatable="false">\ue7db</string>
+    <string name="icon_notification" translatable="false">\ue8aa</string>
+    <string name="icon_about" translatable="false">\ue956</string>
+    <string name="icon_edit" translatable="false">\ue613</string>
+    <!-- Date format -->
+    <string name="date_format_today">HH:mm</string>
+    <string name="date_format_current_month">dd/MM/yyyy HH:mm</string>
+    <string name="date_format_yesterday">YESTERDAY</string>
+    <string name="date_format">dd/MM/yy</string>
+
+    <string name="action_settings">تنضیمات</string>
+    <string name="title_conversations">گفتگو</string>
+    <string name="title_settings">تنضیمات</string>
+    <string name="title_feed_back"><![CDATA[راهنمایی و درباره ما]]></string>
+    <string name="more">بیشتر</string>
+    <string name="title_sign_out">خروج</string>
+    <string name="selected_count">%1$s انتخاب شده</string>
+
+
+    <!--end icons -->
+    <string name="number">شماره تلفن همراه</string>
+    <string name="present">حاضر</string>
+    <string name="absent">غایب</string>
+    <string name="NoMessages">هیچ گفت و گویی موجود نیست شما می توانید یک گفت و گو را شروع کنید</string>
+    <string name="NoCalls">تماسی وجود ندارد شما می توانید یک تماس جدید شروع کنید</string>
+    <string name="error_response">آپدیت غیر ممکن</string>
+    <string name="NoContacts">شماره تماسی وجود ندارد بعدا مراجعه کنید و یا شماره جدید اضافه کنید</string>
+    <string name="type_msg">پیغام خود را بنویسید</string>
+    <string name="NoResult">هیچ</string>
+    <string name="error_response_contacts">ناتوانی در به روز رسانی شماره تماس ها.</string>
+    <string name="error_response_conversations">ناتوانی در به روز رسانی گفت و گو ها.</string>
+    <string name="error_response_groups">ناتوانی در به روز رسانی گروه ها.</string>
+    <string name="error_response_messages">ناتوانی در به روز رسانی پیغام ها.</string>
+    <string name="name_is_too_short">نام بسیارکوتاه است.</string>
+    <string name="select_picture">یک عکس انتخاب کنید.</string>
+    <string name="new_group">گروه جدید</string>
+    <string name="starred_messages">پیام های شروع شده.</string>
+    <string name="status">وضعیت</string>
+    <string name="settings">تنظیمات</string>
+    <string name="refresh_contacts">رفرش</string>
+    <string name="search">جست و جو</string>
+    <string name="add_contact">اضافه کردن شماره تماس</string>
+    <string name="new_message">پیغام جدید</string>
+    <string name="use_whats_clone">سلام در حال استفاده از اپ</string>
+    <string name="title_activity_add_members_to_group">گروه جدید</string>
+    <string name="title_activity_settings">تنظیمات</string>
+    <string name="title_activity_edit_profile">حساب کاربری</string>
+    <string name="share">اشتراک گذاری</string>
+    <string name="edit">تغییر</string>
+    <string name="view_in_ad_book">نمایش در لیست آدرس ها</string>
+    <string name="hello_welcome_to_whats_clone">خوش آمدید</string>
+    <string name="next">بعدی</string>
+    <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification">***</string>
+    <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification_kit">شما یک اس ام اس دریافت خواهید کرد </string>
+    <string name="resend">کد را دریافت نکرده اید؟ ارسال مجدد</string>
+    <string name="enter_the_code_below_to_verify">کد را وارد کنید</string>
+    <string name="enter_your_code">-- -- -- -- -- --</string>
+    <string name="ok">تایید</string>
+    <string name="please_enter_your_ver_code">لطفا کد تایید را وارد کنید</string>
+    <string name="enter_a_val_number">لطفا شماره ی معتبر وارد کنید</string>
+    <string name="change_number">تغییر شماره تلفن</string>
+    <string name="invite">دعوت</string>
+    <string name="your_current_status">وضعیت کنونی شما</string>
+    <string name="select_your_new_status">وضعیت خود را انتخاب کنید</string>
+    <string name="title_activity_status">وضعیت</string>
+    <string name="Make_sure_delete_status">آیا میخواهید این وضعیت را پاک کنید</string>
+    <string name="Yes">بله</string>
+    <string name="No">خیر</string>
+    <string name="delete">پاک کردن</string>
+    <string name="delete_status">پاک کردن وضعیت</string>
+    <string name="cancel">لغو</string>
+    <string name="Ok">تایید</string>
+    <string name="write_something">چیزی بنویسید</string>
+    <string name="error_response_status">عدم دریافت وضعیت</string>
+    <string name="title_activity_edit_status">تغیر وضعیت</string>
+    <string name="deleteALL">پاک کردن همه</string>
+    <string name="oops_something">خطایی رخ داده </string>
+    <string name="oops_something_crashed">مشکلی در سیستم وجود دارد لطفا با پشتیبانی تماس بگیرید</string>
+    <string name="no_status"> بدون وضعیت </string>
+    <string name="no_username">نام کاربری موجود نیست</string>
+    <string name="edit_status_activity_title">عوض کردن وضعیت</string>
+    <string name="title_activity_edit_name">نام خود را وارد کنید</string>
+    <string name="title_select_contacts">شماره را انتخاب کنید</string>
+    <string name="success_response_contacts">لیست دانشجوها با موفقیت به روزرسانی شد</string>
+
+    <string name="edit_group_name">تغییر نام گروه</string>
+    <string name="exit">خروج</string>
+    <string name="shareContact">به اشتراک گذاری شماره تماس</string>
+
+    <!--socket io -->
+    <string name="isTyping">در حال نوشتن...</string>
+    <string name="isOffline">آفلاین</string>
+    <string name="isOnline">آنلاین</string>
+    <string name="lastSeen">آخرین دیدن</string>
+
+
+    <!--end date format-->
+    <string name="call">تماس</string>
+    <string name="attach">اضافه کن</string>
+    <string name="search_">جست و جو ...</string>
+    <string name="add_new_member">اضافه کردن</string>
+    <string name="type_group_subject_here">موضوع گروه را بنویسید...</string>
+    <string name="provide_group_subject_and_optional_group_icon">موضوع گروه و ایکن آن را ارایه دهید (اختیاری)</string>
+    <string name="title_activity_edit_group_name">اضافه کردن موضوع جدید</string>
+    <string name="attach_contact">شماره تماس</string>
+    <string name="attach_video">تصویر</string>
+    <string name="attach_video_record">ضبط کردن ویدیو</string>
+    <string name="attach_location">موقعیت</string>
+    <string name="attach_audio">صوت</string>
+    <string name="attach_camera">دوربین</string>
+    <string name="attach_gallery">تصویر</string>
+    <string name="attach_document">اسناد</string>
+    <string name="media">رسانه</string>
+    <string name="clear_chat">پاک کردن گفتگو</string>
+    <string name="view_contact">نمایش شماره تماس</string>
+    <string name="group_info">مشخصات گروه</string>
+    <string name="search_hint">جست و جو ...</string>
+    <string name="alert_message_delete_conversation">آیا مطمین هستید که میخواهید گفتگو را پاک کنید؟</string>
+    <string name="join_title">ثبت نام</string>
+    <string name="hold_to_record">نگه داشتن برای ضبط</string>
+
+    <!-- Permissions strings start -->
+    <string name="camera_permission">مجوز دوربین</string>
+    <string name="audio_permission">مجوز صوت</string>
+    <string name="storage_permission">مجوز ذخیره سازی </string>
+    <string name="contacts_permission">مجوز شماره تماس</string>
+    <string name="vibrate_permission">مجوز لرزیدن</string>
+    <string name="receive_sms_permission">دریافت مجوز پیامک</string>
+    <string name="read_sms_permission">خواندن مجوز پیامک</string>
+    <string name="call_phone_permission">مجوز تماس تلفنی </string>
+    <string name="get_accounts_permission">دریافت مجوز حساب های کاربری</string>
+    <string name="write_sync_settings_permission">دریافت مجوز حساب های کاربری</string>
+    <string name="read_sync_settings_permission">دریافت مجوز حساب های کاربری</string>
+    <string name="camera_permission_message">مجوز:</string>
+    <string name="record_audio_permission_message">مجوز:</string>
+    <string name="settings_audio_permission_message">مجوز:</string>
+    <string name="write_storage_permission_message">مجوز:</string>
+    <string name="read_storage_permission_message">مجوز:</string>
+    <string name="read_contacts_permission_message">مجوز:</string>
+    <string name="write_contacts_permission_message">مجوز:</string>
+    <string name="vibrate_permission_message">مجوز:</string>
+    <string name="receive_sms_permission_message">مجوز:</string>
+    <string name="read_sms_permission_message">مجوز:</string>
+    <string name="call_phone_permission_message">مجوز:</string>
+    <string name="get_accounts_permission_message">مجوز:</string>
+    <string name="write_sync_settings_permission_message">مجوز:</string>
+    <string name="read_sync_settings_permission_message">مجوز:</string>
+    <string name="no_thanks">خیر</string>
+    <string name="yes">بلی</string>
+
+    <!--Permissions strings end -->
+
+    <string name="deleting_chat">" پاک کردن گفتگو "</string>
+    <string name="copy_message">کپی</string>
+    <string name="transfer_message">ارسال مجدد</string>
+    <string name="message_delete">پیام را پاک کنید؟</string>
+    <string name="message_copy">پیام نوشتنی </string>
+
+    <!--settings strings-->
+    <string name="about_and_help">درباره ما و کمک</string>
+    <string name="contacts">شماره تماس ها</string>
+    <string name="notifications">اعلانات</string>
+    <string name="chats">گفتگو</string>
+    <string name="account">حساب کاربری</string>
+    <string name="delete_my_account">پاک کردن حساب کاربری</string>
+    <string name="chat_settings">تنظیمات گفتگو</string>
+    <string name="enter_key_off">رفتن به خط بعدی با کلید enter</string>
+    <string name="enter_key_on">ارسال پیام با کلید enter</string>
+    <string name="enter_key">کلید enter ارسال است</string>
+    <string name="message_font_size">سایز فونت</string>
+    <string name="message_font_size_summary">سایت فونت پیغام ها</string>
+    <string name="wallpaper">عکس پس زمینه</string>
+    <string name="conversation_tones_off">فعال بودن زنگ در دریافت و ارسال پیام</string>
+    <string name="message_notifications_settings">پیام اعلانات</string>
+    <string name="notifications_settings_tone">صدای اعلانات</string>
+    <string name="default_settings">پیش فرض</string>
+    <string name="message_notifications_settings_vibrate">لرزش</string>
+    <string name="message_notifications_settings_light">روشن</string>
+    <string name="call_notifications_settings_vibrate">لرزیدن</string>
+    <string name="call_notifications_settings_light">روشن</string>
+    <string name="conversation_tones">زنگ گفت و گو ها</string>
+    <string name="message_group_notifications_settings">اعلانات گروه</string>
+    <string name="title_activity_delete_account">پاک کردن حساب کاربری</string>
+    <string name="title_activity_change_number">تغیر شماره</string>
+    <string name="title_activity_account_settings">حساب کاربری</string>
+    <string name="call_notifications_settings">اعلانات تماس</string>
+    <string name="call_ringtone">صدای زنگ</string>
+    <string name="message_notifications_settings_tone_silent">بی صدا</string>
+    <string name="call_notifications_settings_tone_silent">بی صدا</string>
+    <string name="connection_is_available">متصل</string>
+    <string name="connection_is_not_available">نبود اتصال به اینترنت</string>
+    <string name="select_one_at_least">"حداقل یک مورد را انتخاب کنید"</string>
+    <string name="participants">مشترکین:</string>
+    <string name="group_created_successfully">گروه با موفقیت ساخته شد</string>
+    <string name="create_group_failed">خطا در ساختن گروه</string>
+    <string name="please_choose_an_avatar">لطفا تصویر را انتخاب کنید</string>
+    <string name="slide_to_cancel_audio">برای کنسل کردن بکشید</string>
+    <string name="message_is_copied">پیغام کپی شد</string>
+    <string name="of">" خاموش "</string>
+    <string name="failed_upload_image">"خطا در ارسال تصویر "</string>
+
+    <!--group adapters start -->
+    <string name="exit_group">خروج \"</string>
+    <string name="group_ex">\" گروه?</string>
+    <string name="exiting_group_dialog">"در حال خارج شدن از گروه"</string>
+    <string name="deleting_group_dialog">" در حال پاک کردن گروه"</string>
+    <string name="created_by_you_at">ساخته شده توسط شما در:</string>
+    <string name="created_by">"ساخته شده توسط: "</string>
+    <string name="group_at">در</string>
+    <string name="failed_to_delete_this_group_check_connection">پاک نشدن گروه لطفا اینترنت خود را بررسی کنید</string>
+    <string name="failed_to_exit_this_group_check_connection">عدم خروج از گروه اینترنت خود را چک کنید</string>
+    <string name="adding_new_status">اضافه کردن وضعیت جدید...</string>
+    <string name="add_to_group">"اضافه کردن  "</string>
+    <string name="member_to_group">" عضو گروع"</string>
+    <string name="adding_member">" اضافه کردن شماره... "</string>
+    <string name="failed_to_add_member_to_group">مشکل در اضافه کردن عضو لطفا مجددا تلاش کنید</string>
+    <string name="you">شما</string>
+    <!--group member options start -->
+    <string name="message_group_option">"پیام "</string>
+    <string name="view_group_option">"تصویر "</string>
+    <string name="make_admin_group_option"> مدیر</string>
+    <string name="make_member_group_option"> عضو</string>
+    <string name="make_group_option"> ساختن </string>
+    <string name="remove_group_option">"پاک کردن "</string>
+    <!--group member options end -->
+    <string name="remove_from_group">"پاک کردن  "</string>
+    <string name="from_group">" از گروه"</string>
+    <string name="deleting_group">" پاک کردن شماره... "</string>
+    <string name="failed_to_make_member_as_admin">مشکل در اضافه کردن مدیر گروه لطفا مجددا تلاش کنید</string>
+    <string name="failed_to_is_present">مشکل در ارسال لیست حضور و غیاب لطفا مجددا تلاش کنید</string>
+    <string name="failed_to_version_app">مشکل در بروز رسانی برنامه لطفا مجددا تلاش کنید</string>
+    <string name="failed_to_remove_member">خطا در پاک کردن شماره تلاش مجدد</string>
+    <!--group adapters end -->
+    <!--conversations and messages  adapters start-->
+    <string name="tap_to_create_group">ساختن گروه</string>
+    <string name="you_created_this_group">شما این گروه را ساخته اید</string>
+    <string name="he_created_this_group">"این گروه ساخته شده"</string>
+    <string name="you_left">شما ترک کرده اید</string>
+    <string name="he_left">" ترک کردن"</string>
+    <string name="document">مدارک</string>
+    <string name="no_application_to_show_image">"هیچ برنامه کاربردی برای نمایش عکس وجود ندارد"</string>
+    <string name="no_application_to_view_pdf">اپلیکیشنی برای نمایش PDF وجود ندارد</string>
+    <string name="no_application_to_send_sms">برنامه کاربردی برای ارسال اس ام اس وجود ندارد</string>
+    <!--conversations and messages adapters start-->
+    <string name="transfer_message_to">"ارسال پیام یا اشتراک گذاری شماره تماس با "</string>
+    <string name="no_app_to_play_video">"برنامه کاربردی برای اجرای این ویدیو نیست "</string>
+    <string name="no_app_to_play_audio">"اپلیکیشتنی برای اجرای این صوت نیست "</string>
+    <string name="delete_all_status_dialog">پاک کردن تمام وضعیت ها...</string>
+    <string name="deleting">Deleting …</string>
+    <string name="updating_status">بروز رسانی وضعیت...</string>
+    <string name="your_status_updated_successfully">وضعیت شما با موفقیت به روز رسانی شده</string>
+
+
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+
+    <string name="reply_message">پاسخ</string>
+
+
+    <string name="message_notifications_settings_vibrate_off">لرزش خاموش</string>
+    <string name="message_notifications_settings_vibrate_on">لرزش روشن</string>
+    <string name="call_notifications_settings_vibrate_off">خاموش کردن لرزش</string>
+    <string name="call_notifications_settings_vibrate_on">روشن کردن لرزش</string>
+    <string name="enjoy_it">از برنامه کاربردی ما لذت ببرید</string>
+    <string name="app_version">"نسخه "</string>
+    <string name="to_delete_your_account_from_confirm_your_phone_number">برای پاک کردن این حساب کاربری لطفا شماره خود را تایید کنید</string>
+    <string name="delete_user_account">حساب کاربری مرا پاک کن</string>
+    <string name="delete_you_from_groups"><![CDATA[> حذف شما از همه گروه ها]]></string>
+    <string name="delete_all_your_messages"><![CDATA[> تمام پیام های خود را حذف کنید (اگر شما یک پشتیبان داشته باشید می توانید آن را بازیابی کنید)]]></string>
+    <string name="delete_your_account"><![CDATA[> حساب خود را غیرفعال کنید]]></string>
+    <string name="deleting_your_account_will">پاک کردن حساب کاربری شما در :</string>
+    <string name="alert_message_delete_account">آیا مطمین هستید که میخواهید حساب کاربری خود را پاک کنید</string>
+    <string name="delete_account_failed_please_try_later">مشکل در پاک شدن حساب کاربری لطفا مجددا تلاش کنید</string>
+    <string name="unexpected_reponse_from_server">جواب غیره منتظره از سرور </string>
+    <string name="you_send_messages"> شما نمی توانید به این گروه پیام دهید زیرا عضو نیستید</string>
+    <string name="file">پوشه</string>
+    <string name="waiting_for_network">منتطر اتصال  </string>
+    <string name="failed_exit_group">خطا در خروج از گروه</string>
+    <string name="this_video_is_not_exist">این ویدیو موجود نیست</string>
+    <string name="this_image_is_not_exist">این تصویر موجود نیست</string>
+    <string name="this_audio_is_not_exist">این فایل صوتی موجود نیست</string>
+    <string name="this_document_is_not_exist">این سند موجود نیست</string>
+    <string name="account_added_already">" حساب کاربری اضافه شده است "</string>
+    <string name="you_cannot_delete_your_account_please_contac">شما نمیتوانید حساب کاربری خود را پاک کنید لطفا با مدیر تماس بگیرید</string>
+
+    <!--Directories strings-->
+
+    <string name="profile_photos">profile</string>
+    <string name="images_directory">image</string>
+    <string name="data_cache_directory">backup</string>
+    <string name="videos_directory">video</string>
+    <string name="audios_directory">audio</string>
+    <string name="documents_directory">docs</string>
+    <string name="images_other_directory">other</string>
+    <string name="directory_wallpaper">wallpaper</string>
+    <string name="directory_sent">sent</string>
+    <string name="video_thumbnail">thumbnail</string>
+    <string name="image_saved">عکس ذخیره شد</string>
+    <string name="save_to_gallery">ذخیره در گالری</string>
+    <string name="share_or_save">اشتراک یا ذخیره</string>
+    <string name="shareItem">اشتراک</string>
+    <string name="this_message_empty">این پیغام خالی است</string>
+    <string name="share_message">Share</string>
+    <string name="you_can_share_more_then_one">شما بیشتر از یک آیتم نمی توانید به اشتراک بگذارید</string>
+    <!--others -->
+    <string name="add_to_you_contact">اضافه کردن این شخص به لیست تماس شما </string>
+    <string name="status_and_phone">وضعیت و شماره تلفن</string>
+    <string name="failed_to_the_current_status">مشکل در دریافت وضعیت کنونی</string>
+    <string name="please_enter_your_mobile_number">شماره تلفن  خود را وارد کنیذ</string>
+    <string name="verify_mobile">تایید شماره موبایل </string>
+    <string name="firstly_select_your_country_here">ابتدا نام کشور خود را انتخاب کنید</string>
+    <string name="activity_backup_drive_success">پشتیبان گیری با موفقیت انجام شد</string>
+    <string name="activity_backup_drive_failed">پشتیبان گیری نا موفق</string>
+    <string name="activity_backup_drive_message_restart">شروع مجدد پشتیبان گیری</string>
+    <string name="restore_data">بازیابی اطلاعات</string>
+    <string name="please_click_on_restore_button_to_restore_your_messages">لطفا برای بازیابی تصویر کلیک کنید</string>
+    <string name="backup">بازیابی</string>
+    <string name="chat_backup">پشتیبان گیری گفتگو ها</string>
+    <string name="back_up_your_messages_you_can_restore_them_when_you_reinstall_the_application">پیغام های خود را پشتیبان بگیرید  تا بعد آن هارا بازیابی کنید</string>
+    <string name="back_up">پشتیبان گیری</string>
+    <string name="start_backing_up">شروع پشتیبان گیری</string>
+    <string name="start_restore">شروع، بازیابی یا رفرش</string>
+    <string name="start">شروع</string>
+    <string name="skip">رد کردن</string>
+    <string name="finish">پایان</string>
+
+    <!-- Rate Strings -->
+    <string name="rate_title">به ما رای دهید%s</string>
+    <string name="rate_message">لطفا با رای دادن خود مارا در بهبود برنامه یاری کنید!</string>
+    <string name="rate">بله رای می دهم</string>
+    <string name="rate_later">بعدا یادآوری کن</string>
+    <string name="rate_cancel">نه ممنون</string>
+    <string name="rate_helper_google_play_url">https://play.google.com/store/apps/details?id=%s</string>
+    <string name="update">بله، به روز رسانی کن</string>
+    <string name="update_title">به روز رسانی %s</string>
+    <string name="update_app">به روز رسانی نرم افزار</string>
+    <string name="update_app_message">سلام این نسخه  </string>
+    <string name="update_message_complete">"نسخه اپ شما منسوخ شده لطفا آپدیت کنید"</string>
+    <string name="please_select_y_country">لطفا ابتدا کشور خود را مشخص کنید</string>
+    <string name="permission_alert">خطای مجوز</string>
+    <string name="permission_alert_msg">در صورتی که به این برنامه اجازه ی خواندن لیست شماره هارا ندهید قادر به استفاده از آن نخواهید بود</string>
+    <!--calls strings-->
+    <string name="incoming_call">تماس با شما</string>
+    <string name="incoming_call_from">تماس از </string>
+    <string name="call_ended">تماس پایان یافت </string>
+    <string name="calling">در حال تماس </string>
+    <string name="clear_log_call">پاک کردن فهرست تماس ها</string>
+    <string name="new_call">تماس جدید</string>
+    <string name="you_couldnt_call_this_user">تماس بر قرار نشد لطفا مجددا تلاش کنید.</string>
+    <string name="fake_name">- - -</string>
+    <string name="mobile">"موبایل: "</string>
+    <string name="click_to_make_an_action">کلیک برای دریافت یا رد تماس</string>
+    <string name="voice_call">تماس صوتی</string>
+    <string name="video_call">تماس تصویری</string>
+    <string name="call_history">تاریخچه</string>
+    <string name="title_calls">جزییات تماس</string>
+    <string name="remove_from_log">پاک کردن از تاریخچه تماس</string>
+    <string name="block_user">بلاک کردن</string>
+    <string name="delete_call_dialog">در حال پاک کردن..</string>
+    <string name="call_select_voice">تماس صوتی</string>
+    <string name="call_select_video"> تماس تصویری</string>
+    <string name="you_couldnt_call_this_user_network">عدم برقراری ارتباط مطمین شوید به اینترنت وصل هستید</string>
+    <string name="you_couldnt_call">تماس ناموفق</string>
+    <string name="duration">مدت زمان</string>
+    <string name="close">بستن</string>
+    <string name="open">باز کردن</string>
+    <string name="about_title">درباره ما</string>
+    <string name="page_not_found">صفحه پیدا نشد</string>
+    <string name="default_wallpaper">پیش فرض</string>
+    <string name="wallpaper_gallery">گالری</string>
+    <string name="wallpaper_is_set">تصویر پس زمینه تعیین شده</string>
+    <string name="you_can_copy_more_then_one">شما بیشتر از یگ گزینه نمیتوانید انتخاب کنید</string>
+    <string name="documents">اسناد</string>
+    <string name="links">لینک ها</string>
+    <string name="this_a_pdf_file_document">این یک سند پی دی اف است.</string>
+    <string name="fetching_urls_preview">در حال دریافت...</string>
+
+    <string name="title_activity_privacy"><![CDATA[حریم خصوصی و شرایط]]></string>
+    <string name="terms_and_privacy_policy">شرایط استفاده ی محصول</string>
+    <string name="english">انگلیسی</string>
+    <string name="french">فرانسه</string>
+    <string name="german">آلمانی</string>
+    <string name="srbski">صرب</string>
+    <string name="bosnisch">بانیش</string>
+    <string name="romaneste">رومانیایی</string>
+    <string name="turski">ترکی</string>
+    <string name="tschechisch">چک</string>
+    <string name="grichisch">گریش</string>
+    <string name="spanisch">اسپانیایی</string>
+    <string name="kroatisch">کروات</string>
+    <string name="indonesisch">اندونزیایی</string>
+    <string name="mazedonisch">مزدانی</string>
+    <string name="rusisch">روسی</string>
+    <string name="slovenisch">اسلونایی</string>
+    <string name="title_language">زبان ها</string>
+    <!--new strings-->
+
+    <string name="you_need_to_restart_the_application">نیاز به تنظیم مجدد سرور</string>
+    <string name="you_are_using_a_moderate_connection">اینترنت شما مناسب است</string>
+    <string name="you_are_using_a_poor_connection">مشکل در اینترنت</string>
+    <string name="you_are_using_a_good_connection">وضعیت اینترنت  خوب است</string>
+    <string name="you_are_using_a_slower_connection">اینترنت شما کند است</string>
+
+    <string name="selected">انتخاب شده</string>
+    <string name="failed_to_restore_the_backup">عدم موفقیت در بازگردانی پشتیبان</string>
+    <string name="restore_is_done">بازگردانی پشتیبان با موفقیت در زمان:</string>
+    <string name="failed_to_restore_the_backup_try">مشکل در بکاپ گیری لطفا دوباره تلاش کنید</string>
+    <string name="please_wait_a_moment">لطفا چند لحظه صبر کنید</string>
+    <string name="current_language">کنونی</string>
+
+    <string name="block_user_make_sure">در صورت بلاک کردن این کاربر او دیگر قادر نخواهد بود برای شما  پیغامی ارسال کند، آیا مطمین هستید ؟</string>
+    <string name="unblock_user_make_sure">در صورت رفع بلاک، این کاربر قادر خواهد بود تا به شما پیام دهد، آیا مطمین هستید؟</string>
+    <string name="unblock_user">رفع بلاک</string>
+    <string name="title_blocked_contacts">لیست سیاه</string>
+    <string name="missed_video_call">تماس های تصویری از دست رفته</string>
+    <string name="missed_voice_call">تماس های صوتی از دست رفته</string>
+    <string name="outgoing_video_call">تماس های ویدیویی</string>
+    <string name="outgoing_voice_call">تماس های صوتی</string>
+    <string name="signup_terms">ادامه دادن به این معناست که شرایط استفاده از برنامه را تایید کرده اید.
+	</string>
+    <!--new strigns-->
+
+    <string name="invitation_from">فرم دعوتنامه</string>
+    <string name="your_session_expired">شما از سیستم خارج شده اید</string>
+    <!--new strings-->
+    <string name="click_on">کلیک بر </string>
+    <string name="to_choose_your_country_n_and_enter_your_phone_number"> برای انتخاب کشور و وارد کردن شماره تلفن</string>
+    <string name="username">نام کاربری</string>
+    <string name="complete_registration_optional">تکمیل کردن فرم های زیر اختیاری می باشد</string>
+    <string name="complete_registration">تکمیل ثبت نام</string>
+    <string name="dialog_loading">در حال بارگیری..</string>
+    <string name="last_back_time">زمان آخرین پشتیبان گیری:</string>
+    <string name="you_didnot_make_a_backup">شما تا به حال از برنامه پشتیبان نگرفته اید </string>
+    <string name="creating_backup">ایجاد پشتیبان محلی (</string>
+    <string name="backup_occur">%). پشتیبان گیری رخ داد</string>
+    <string name="failed_to_backup_your_data">خطا در پشتیبان گیری از پیام ها</string>
+    <string name="backup_is_done">پشتیبان گیری موفق زمان:</string>
+    <string name="backup_drive_folder">پوشه ی پشتیبان گیری</string>
+    <string name="backup_drive_folder_not_set">N/A</string>
+    <string name="backup_drive_button_open_drive">باز کردن درایو</string>
+    <string name="backup_drive_recent">پشتیبان های آخر</string>
+    <string name="backup_drive_dialog_restore_title">بازگشت به نسخه قبلی </string>
+    <string name="backup_drive_dialog_restore_desc">بازیابی پشتیبان همه ی فایل ها را  از نو ایجاد می کند</string>
+    <string name="backup_drive_dialog_restore_details">جزیات پشتیبان گیری</string>
+    <string name="get_started">شروع کردن</string>
+    <string name="number_not_match">این شماره با شماره ی وارد شده اول شما یکی نیست لطفا دوباره تلاش کنید</string>
+
+    <string name="you_can_select_your_favorite_language_from_here">زبان مورد نظر خود را انتخاب کنید</string>
+    <string name="title_home">خانه</string>
+    <string name="title_Friends">دوستان</string>
+    <string name="voice_call_dialog_title">صدا</string>
+    <string name="video_call_dialog_title">تصویر</string>
+    <string name="new_messages_notify">پیام های جدید</string>
+    <string name="messages_from_notify">پیام از </string>
+    <string name="chats_notify">گفتگو ها</string>
+    <string name="open_screen_capture_directory">آیا مایل به باز کردن پوشه ذخیره فایل هستید؟</string>
+    <string name="open_screen_capture_directory_title">باز کردن پوشه</string>
+    <string name="student">دانشجو</string>
+    <string name="password">رمز عبور</string>
+    <string name="teacher">استاد</string>
+    <string name="access_denied_create_group">شما اجازه ساختن گروه جدید ندارید</string>
+    <string name="access_denied_create_std">شما اجازه دسترسی به دانشجو ها را ندارید</string>
+    <string name="access_denied_create_control">شما اجازه دسترسی به کنترل اشیا را ندارید</string>
+    <string name="captured_videos_directory">تصاویر ضبط شده</string>
+    <string name="error_capture">خطا در ضبط  تصویر</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

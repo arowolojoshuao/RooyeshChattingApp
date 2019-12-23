@@ -1,0 +1,161 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorPrimaryLight</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- ActionMode Styles -->
+        <item name="android:actionModeBackground">@color/colorActionMode</item>
+        <item name="android:backgroundStacked">@color/colorActionMode</item>
+        <item name="android:backgroundSplit">@color/colorActionMode</item>
+
+        <!--change popup color options menu-->
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+    <!-- crop style-->
+
+    <style name="Theme.AppCompat.Translucent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">#33000000
+        </item> <!-- Or any transparency or color you need -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+    <style name="AppLoginTheme" parent="Theme.AccountKit">
+        <item name="android:windowNoTitle">true</item>
+        <item name="com_accountkit_primary_color">@color/colorWhite</item>
+        <item name="com_accountkit_primary_text_color">@color/colorWhite</item>
+        <item name="com_accountkit_secondary_text_color">@color/colorBlack</item>
+        <item name="com_accountkit_status_bar_color">@color/colorPrimaryDark</item>
+        <!-- Button -->
+        <item name="com_accountkit_button_background_color">@color/colorPrimary</item>
+        <item name="com_accountkit_button_border_color">@color/colorPrimaryDark</item>
+        <item name="com_accountkit_button_text_color">@color/colorWhite</item>
+        <item name="com_accountkit_border_button_text_color">@color/colorWhite</item>
+        <item name="com_accountkit_button_pressed_text_color">@color/colorWhite</item>
+        <item name="com_accountkit_button_pressed_background_color">@color/colorPrimaryLightRipple
+        </item>
+
+        <!-- input -->
+        <item name="com_accountkit_input_accent_color">@color/colorPrimaryLightRipple</item>
+        <item name="com_accountkit_input_border_color">@color/colorPrimaryDark</item>
+        <item name="com_accountkit_input_text_color">@color/colorPrimaryDark</item>
+        <item name="com_accountkit_input_background_color">#E9E5ED</item>
+    </style>
+
+    <style name="option" parent="Theme.AppCompat.Light">
+
+    </style>
+
+    <style name="Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/transparent</item>
+    </style>
+
+    <style name="CustomTabPageIndicator.Text" parent="android:TextAppearance.Medium">
+        <item name="android:textColor">@drawable/bg_tabs_text_color</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ToolbarSubTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+    <!-- les cardView styles -->
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
+    <style name="TextAppearance.WhatsClone.Title.Collapsed" parent="android:TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.WhatsClone.Title.Expanded" parent="android:TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextInputEditTextStyle">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorHint">@color/colorGray2</item>
+        <item name="android:padding">15dp</item>
+    </style>
+
+    <!--buttons style-->
+
+    <style name="Buttons">
+        <item name="android:textColor">@drawable/bg_buttons_text_color_welcome</item>
+        <item name="android:background">@drawable/bg_buttons_welcome</item>
+        <item name="android:padding">6dp</item>
+    </style>
+
+    <style name="ButtonsBackup">
+        <item name="android:textColor">@drawable/bg_buttons_text_color_backup</item>
+        <item name="android:background">@drawable/bg_buttons_backup</item>
+        <item name="android:padding">6dp</item>
+    </style>
+
+
+    <style name="ButtonDelete">
+        <item name="android:textColor">@drawable/bg_buttons_text_color_welcome</item>
+        <item name="android:background">@drawable/bg_buttons_delete_account</item>
+        <item name="android:padding">6dp</item>
+    </style>
+
+
+    <style name="LoadingIndicatorView">
+        <item name="minWidth">48dip</item>
+        <item name="maxWidth">48dip</item>
+        <item name="minHeight">48dip</item>
+        <item name="maxHeight">48dip</item>
+        <item name="indicatorName">CirclePulseIndicator</item>
+    </style>
+
+    <style name="LoadingIndicatorView.Large">
+        <item name="minWidth">76dip</item>
+        <item name="maxWidth">76dip</item>
+        <item name="minHeight">76dip</item>
+        <item name="maxHeight">76dip</item>
+        <item name="indicatorName">CirclePulseIndicator</item>
+    </style>
+
+    <style name="LoadingIndicatorView.Small">
+        <item name="minWidth">24dip</item>
+        <item name="maxWidth">24dip</item>
+        <item name="minHeight">24dip</item>
+        <item name="maxHeight">24dip</item>
+        <item name="indicatorName">CirclePulseIndicator</item>
+    </style>
+
+</resources>

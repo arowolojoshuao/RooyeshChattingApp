@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/txtConfrimed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:padding="22dp"
+        android:text="حساب کاربری شما هنوز توسط مدیر تایید نشده است لطفا منتظر تاییدیه مدیر بمانید"/>
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/splash_textlogo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center|bottom"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/ic_textlogo"
+        android:layout_marginTop="15dp"
+        />
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+        <TextView
+            android:id="@+id/txtConfrimed2"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:padding="22dp"
+            android:text="خواهشمندیم در صورتی که حساب شما بعد از 24 ساعت هنوز تایید نشده باشد مراتب را به سایت دانشگاه یا استاد مورد نظر گزارش دهید"/>
+
+
+
+
+</LinearLayout>

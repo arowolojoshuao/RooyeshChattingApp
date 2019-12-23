@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:paddingBottom="50dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="50dp"
+    android:background="#fff"
+    >
+
+    <com.setayeshco.rooyesh.element.textviewbold
+        android:id="@+id/txtv_titr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_titr"
+        android:gravity="center"
+        android:minHeight="100dp"
+        android:text="میخواهید از حساب کاربری خود خارج شوید؟"
+        android:textColor="#fff" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtv_titr"
+        android:orientation="horizontal"
+        android:layoutDirection="rtl"
+        >
+
+
+        <com.setayeshco.rooyesh.element.mybutton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_try"
+            android:text="بله"
+            android:layout_below="@+id/txtv_soal"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_button"
+            android:textColor="#fff"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            />
+
+        <com.setayeshco.rooyesh.element.mybutton
+            android:id="@+id/btn_exit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_button"
+            android:text="خیر"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+</RelativeLayout>
